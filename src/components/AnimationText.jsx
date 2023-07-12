@@ -1,20 +1,20 @@
 import {Cursor,useTypewriter,Typewriter} from 'react-simple-typewriter'
-
+import styles from './components_css/animationText.module.css'
 function AnimationText() {
-    const {text}=useTypewriter({
-        words:['manas','laud','male'],
-        loop:{},
-        typeSpeed:120,
-        deleteSpeed:50
-    })
+    // const {text}=useTypewriter({
+    //     words:['Student','Developer','Athlete'],
+    //     loop:{},
+    //     typeSpeed:120,
+    //     deleteSpeed:5000
+    // })
   return (
-    <div className="component">
+    <div className={styles.component}>
     <Typewriter
-            words={['Eat', 'Sleep', 'Code', 'Repeat!']}
-            loop={5}
+            words={['Student', 'Developer', 'Athlete']}
+            loop={Infinity}
             cursor
-            cursorStyle='_'
-            typeSpeed={70}
+            cursorStyle='>'
+            typeSpeed={100}
             deleteSpeed={50}
             delaySpeed={1000}
            

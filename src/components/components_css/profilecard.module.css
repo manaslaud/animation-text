@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+}
+.ProfileCard{
+    box-shadow: 0px 2.376000165939331px 7.7220001220703125px 0px white;
+    position: relative;
+  background-color: black;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+p{
+    padding:1rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+h1{
+    margin: 0px;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+h2{
+    font-size: 0.7rem;
+}
+.btnContainer{
+    margin-bottom: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+} 
+.contactBtn{
+    background-color: #007AFF;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    /* border: 3px solid #007AFF; */
+    color: white;
+    transition: 0.3s ease-in;
+}
+.contactBtn:hover{
+    background-color:transparent ;
+    border-color: #007AFF;
+}
+
+.githubBtn{
+    background-color: transparent;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    border: 1.6px solid #007AFF;
+    color: white;
+    transition: 0.3s ease-in;
+}
+.githubBtn:hover{
+    background-color:#007AFF ;
+    border-color: transparent;
+}
+.image{
+    padding: 1rem;
+    margin: 10px 10px 0px 10px;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 2000px;
+    width: 15rem;
+    height: 15rem;
+    border: 5px solid #007AFF;
+    transition: 0.3s ease-in;
+}
+.skills{
+    flex: 0 0 60px;
+    background-color: transparent;
+    border: 2px solid rgba(0, 122, 255, 0.5);
+  opacity: 0.9;
+  font-size: 0.8rem;
+  padding: 6px;
+  font-weight: 600;
+  border-radius: 5px;
+  white-space: nowrap;
+  margin-bottom: 0.5rem;
+}
+.skillsContainer{
+    width: fit-content;
+    flex-basis: 33.33%;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex; 
+    gap:0.6rem;
+}
+.image:hover{
+    width: 16rem ;
+    height:16rem   ;
+    padding: 0px;
+}
