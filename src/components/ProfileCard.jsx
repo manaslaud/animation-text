@@ -10,8 +10,8 @@ function ProfileCard() {
         <h2>Mumbai</h2>
         <p>UI/UX Desinger and Frontend Developer</p>
         <div className={styles.btnContainer}>
-        <button className={styles.contactBtn}>Behance</button>
-        <button className={styles.githubBtn}>GitHub</button>
+        <button className={styles.contactBtn}><a href='https://www.behance.net/manaslaud'>Behance</a></button>
+        <button className={styles.githubBtn}><a href='https://github.com/manaslaud'>Github</a></button>
         </div>
         <div className={styles.skillsContainer}>
             <span className={styles.skills}>UI/UX</span>
