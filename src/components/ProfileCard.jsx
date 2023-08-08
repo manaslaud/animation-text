@@ -14,10 +14,10 @@ function ProfileCard() {
         <button className={styles.githubBtn}><a href='https://github.com/manaslaud'>Github</a></button>
         </div>
         <div className={styles.skillsContainer}>
-            <span className={styles.skills}>UI/UX</span>
-            <span className={styles.skills}>Figma</span>
-            <span className={styles.skills}>React.js</span>
-            <span className={styles.skills}>Typescript</span>
+            <span className={styles.skills}><a href='https://gravitas23.vercel.app/'> Gravitas23</a></span>
+            <span className={styles.skills}><a href='https://3dverse.vercel.app/'> 3dverse</a></span>
+            <span className={styles.skills}><a href='https://share-app-manas.web.app/'> Share Place App</a></span>
+            <span className={styles.skills}><a href='https://ffcs.csivit.com/'>FFCS Planner</a></span>
             <span className={styles.skills}>Frontend Web Development</span>
         </div>
         <AnimationText/>
