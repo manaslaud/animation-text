@@ -93,7 +93,7 @@ a, a:visited, a:hover, a:active {
 }
 .skillsContainer{
     width: fit-content;
-    flex-basis: 33.33%;
+    flex-basis: 25%;
     justify-content: center;
     flex-wrap: wrap;
     display: flex; 
