@@ -10,7 +10,7 @@ function AnimationText() {
   return (
     <div className={styles.component}>
     <Typewriter
-            words={['Student', 'Developer', 'Designer']}
+            words={['Student', 'Developer', 'Athlete']}
             loop={Infinity}
             cursor
             cursorStyle='>'
