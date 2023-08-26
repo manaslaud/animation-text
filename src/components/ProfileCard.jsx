@@ -18,7 +18,7 @@ function ProfileCard() {
             <span className={styles.skills}><a href='https://3dverse.vercel.app/'> 3dverse</a></span>
             <span className={styles.skills}><a href='https://share-app-manas.web.app/'> Share Place App</a></span>
             <span className={styles.skills}><a href='https://ffcs.csivit.com/'>FFCS Planner</a></span>
-            <span className={styles.skills}><a href='https://quiz-frontend-zeta.vercel.app/'>CSI Quiz</a></span>
+            <span className={styles.skills}><a href='https://brain-component.vercel.app/'>Neural Network Shader</a></span>
             <span className={styles.skills}><a href='https://runaway-pink.vercel.app/'>Runaway</a></span>
         </div>
         <AnimationText/>
