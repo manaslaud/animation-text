@@ -8,7 +8,7 @@ function ProfileCard() {
         <img src='pfp.jpg' className={styles.image}></img>
         <h1>Manas Laud</h1>
         <h2>Mumbai</h2>
-        <p>UI/UX Desinger and Frontend Developer</p>
+        <p><b>I work with:</b> Three.js, Next.js, React Three Fiber and Solidity</p>
         <div className={styles.btnContainer}>
         <button className={styles.contactBtn}><a href='https://www.behance.net/manaslaud'>Behance</a></button>
         <button className={styles.githubBtn}><a href='https://github.com/manaslaud'>Github</a></button>
@@ -20,6 +20,7 @@ function ProfileCard() {
             <span className={styles.skills}><a href='https://ffcs.csivit.com/'>FFCS Planner</a></span>
             <span className={styles.skills}><a href='https://brain-component.vercel.app/'>Neural Network Shader</a></span>
             <span className={styles.skills}><a href='https://runaway-pink.vercel.app/'>Runaway</a></span>
+            <span className={styles.skills}><a href='https://lasertag.csivit.com/'>Lasertag 2023</a></span>
         </div>
         <AnimationText/>
         </div>
