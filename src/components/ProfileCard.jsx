@@ -14,13 +14,14 @@ function ProfileCard() {
         <button className={styles.githubBtn}><a href='https://github.com/manaslaud'>Github</a></button>
         </div>
         <div className={styles.skillsContainer}>
-            <span className={styles.skills}><a href='https://gravitas.vit.ac.in/'> Gravitas23</a></span>
             <span className={styles.skills}><a href='https://planefolio-2-0.vercel.app/'>Planefolio</a></span>
-            <span className={styles.skills}><a href='https://share-app-manas.web.app/'> Share Place App</a></span>
-            <span className={styles.skills}><a href='https://ffcs.csivit.com/'>FFCS Planner</a></span>
-            <span className={styles.skills}><a href='https://brain-component.vercel.app/'>Neural Network Shader</a></span>
-            <span className={styles.skills}><a href='https://runaway-pink.vercel.app/'>Runaway</a></span>
+            <span className={styles.skills}><a href='https://gravitas.vit.ac.in/'> Gravitas23</a></span>
             <span className={styles.skills}><a href='https://lasertag.csivit.com/'>Lasertag 2023</a></span>
+            <span className={styles.skills}><a href='https://brain-component.vercel.app/'>Gdrive 3.0</a></span>
+            <span className={styles.skills}><a href='https://ffcs.csivit.com/'>FFCS Planner</a></span>  
+            <span className={styles.skills}><a href='https://share-app-manas.web.app/'> Share Place App</a></span>         
+            <span className={styles.skills}><a href='https://runaway-pink.vercel.app/'>Runaway</a></span>
+            
         </div>
         <AnimationText/>
         </div>
