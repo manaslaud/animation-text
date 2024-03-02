@@ -16,6 +16,7 @@ function ProfileCard() {
         <div className={styles.skillsContainer}>
             <span className={styles.skills}><a href='https://planefolio-2-0.vercel.app/'>Planefolio</a></span>
             <span className={styles.skills}><a href='https://gravitas.vit.ac.in/'> Gravitas23</a></span>
+<span className={styles.skills}><a href='https://intel.aryanbharti.com/'>Rekindle</a></span>
             <span className={styles.skills}><a href='https://lasertag.csivit.com/'>Lasertag 2023</a></span>
             <span className={styles.skills}><a href='https://file-share-peach.vercel.app/'>Gdrive 3.0</a></span>
             <span className={styles.skills}><a href='https://ffcs.csivit.com/'>FFCS Planner</a></span>  
